@@ -1,9 +1,9 @@
 @AccessControl.authorizationCheck: #NOT_REQUIRED
-@AbapCatalog.sqlViewName: 'ZDPLCTINV'
-@EndUserText.label: 'Duplicate Invoice Check'
+@AbapCatalog.sqlViewName: 'Z_SIMLR_INVC_CHCK'
+@EndUserText.label: 'Same Invoice Check'
 @OData.publish: true
 
-define view Z_DPLCT_INV_CHK
+define view Z_SIMLR_INVC_CHCK
 as select from bkpf
 inner join bseg
 on bkpf.belnr = bseg.belnr
