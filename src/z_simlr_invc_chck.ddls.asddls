@@ -1,5 +1,5 @@
 @AccessControl.authorizationCheck: #NOT_REQUIRED
-@AbapCatalog.sqlViewName: 'Z_SIMLR_INVC_CHCK'
+@AbapCatalog.sqlViewName: 'Z_SIMLRINVCHCK1'
 @EndUserText.label: 'Same Invoice Check'
 @OData.publish: true
 
